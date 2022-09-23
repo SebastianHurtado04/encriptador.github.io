@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img class="logo" src="imagenes/candadoazul.png" alt="imagen-de-candado">
+    </header>
+   
+    <main id="">
+       
+        <div class="ingreseTexto">
+            
+            <input id="texto" class="texto" type="text" placeholder="Ingrese el texto aqui">
+
+        </div>
+       
+        <div class="botones">
+
+            <p>⚠ Solo letras minusculas y sin acentos</p>
+
+            <button id="btnEncriptar" type="button"> Encriptar! </button>
+
+            <button id="btnDesencriptar" type="button">Desencriptar!</button>
+
+            <button id="btnLimpiar">Limpiar!</button>
+            
+
+        </div>
+        
+        <aside class="aside">
+            
+            <div id="img">
+
+                <img id="imagenNino" class="imagenNino"  src="imagenes/img1.png" alt="buscando texto para codificar">
+
+                <h1 class="textoNino">Ningun Mensaje fue encontrado</h1>
+                
+            </div>
+            
+            <textarea id="textoEncriptado" placeholder="Ingrese el texto que desees encriptar o desencriptar." cols="30" rows="5" readonly></textarea>
+                
+            <button id="copiar">Copiar!</button>
+            
+        </aside>
+    </main>
+
+    <script src="encriptar.js"></script>
+
+    <footer>
+        <img id="logoFooter" src="imagenes/candadoazul.png">
+        <p class="copy">&copy Sebastian Hurtado - Ingeniero Industrial y Desarrollador Web </p>
+    </footer>
+    
+</body>
+</html>
