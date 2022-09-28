@@ -63,7 +63,7 @@ function limpiar(){
     document.getElementById("copiar").style.display = "none";
     document.getElementById("textoEncriptado").style.width="200px";
     document.getElementById("textoEncriptado").style.height = "100px";
-
+    document.getElementById("textoEncriptado").innerText = "";
 }
 
 /*  Agregando evento limpiar al boton  */
